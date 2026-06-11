@@ -126,8 +126,9 @@ function HeroSection() {
             </div>
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black leading-tight">
-              {t(
-                <>احجز طبيبك<br /><span className="text-gradient bg-gradient-to-r from-secondary-300 to-secondary-400 bg-clip-text text-transparent">في ثوانٍ </span></>,
+              {lang === 'ar' ? (
+                <>احجز طبيبك<br /><span className="text-gradient bg-gradient-to-r from-secondary-300 to-secondary-400 bg-clip-text text-transparent">في ثوانٍ </span></>
+              ) : (
                 <>Book Your Doctor<br /><span className="text-gradient bg-gradient-to-r from-secondary-300 to-secondary-400 bg-clip-text text-transparent">in Seconds</span></>
               )}
             </h1>

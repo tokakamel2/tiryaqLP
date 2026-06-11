@@ -73,8 +73,8 @@ export default function AboutPage() {
 
             <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-white mb-6 leading-tight">
               {t(
-                <>ترياق <span className="text-gradient">— حجز اسهل , رعاية افضل</span></>,
-                <>Tiryaq <span className="text-gradient">— More Than a Name</span></>
+                'ترياق — حجز اسهل , رعاية افضل',
+                'Tiryaq — More Than a Name'
               )}
             </h2>
             <div className="space-y-4 text-neutral-600 dark:text-neutral-300 leading-relaxed">
