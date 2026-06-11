@@ -8,7 +8,10 @@ import Image from 'next/image'
 export default function Footer() {
   const { t, lang } = useLang()
 
-  const links = {
+  const links: {
+    company: { href: string; label: string }[]
+    legal: { href: string; label: string }[]
+  } = {
     company: [
       { href: '/', label: t('الرئيسية', 'Home') },
       { href: '/about', label: t('من نحن', 'About Us') },
